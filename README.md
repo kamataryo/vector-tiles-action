@@ -1,6 +1,6 @@
 # Vector tiles action
 
-[![.github/workflows/test.yml](https://github.com/geolonia/vector-tiles-action/actions/workflows/test.yml/badge.svg)](https://github.com/geolonia/vector-tiles-action/actions/workflows/test.yml)
+[![.github/workflows/test.yml](https://github.com/kamataryo/vector-tiles-action/actions/workflows/test.yml/badge.svg)](https://github.com/kamataryo/vector-tiles-action/actions/workflows/test.yml)
 
 A GitHub Action to generate vector tiles.
 
@@ -20,7 +20,7 @@ jobs:
 
       # Generate tiles 🚀
       - name: 'Generate vector tiles as *.mvt'
-        uses: geolonia/vector-tiles-action@v0
+        uses: kamataryo/vector-tiles-action@v0
         id: generate_vector_tiles
         with:
           file: ./test/data.geojson         # [Required] Data source.

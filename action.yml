@@ -1,6 +1,6 @@
 name: 'Generate vector tiles'
 description: 'generate mbtiles with tippeacanoe'
-author: 'Geolonia'
+author: 'kamataryo'
 inputs:
   file:
     description: 'Specify a geometry file.'
